@@ -1,0 +1,27 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Xanh Mono', monospace;
+    /* background-color: #428CD4;*/
+}
+body, html { overflow-x:hidden; }
+
+a { text-decoration: underline; }
+a:visited { text-decoration: none; color:black }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; color: black; }
+
+
+h1 {
+    text-align: center;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 50%;
+}
+
